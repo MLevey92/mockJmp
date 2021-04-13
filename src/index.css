@@ -1,0 +1,43 @@
+
+/* ############ HEADER / NAVBAR ########### */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(5, 155, 214);
+    color: white;
+}
+#leftNav {
+    display: flex;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-btn {
+    background-color: rgb(5,155,214);
+    color: white;
+    border: none;
+}
+.nav-btn:hover {
+    background-color: rgb(92, 185, 221);
+    color: white;
+    border: none;
+    transition: .3s;
+}
+
+#rightNav {
+    display: flex;
+}
+
+.search {
+    display: flex;
+}
+
+/* ############ PANELS ########### */
+.panel-head {
+    background-color: lightgray;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
